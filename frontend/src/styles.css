@@ -1,1 +1,111 @@
-/* You can add global styles to this file, and also import other style files */
+/*fuentes*/
+@font-face {
+  font-family: header;
+  src: url(/fuentes/header.ttf);
+}
+@font-face {
+  font-family: lorem;
+  src: url(/fuentes/lorem.ttf);
+}
+@font-face {
+  font-family: boton;
+  src: url(/fuentes/boton.ttf);
+}
+/*estilo del header*/
+.header-index {
+  background-image: url(/Imagenes/casas/casa-header.png);
+  background-position: center ;
+  background-size: cover;
+  padding: 70px;
+  font-family: header;
+}
+.header-index > h1 {
+  display:flex;
+  justify-content:right;
+  align-items:center;
+}
+
+.boton-publicar-casa {
+  position: middle;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.boton-publicar-casa-texto {
+
+  font-family: boton;
+  color: #ffffff;
+  background-color: black;
+  display:flex;
+}
+
+.main-index {
+  background-image: url(/Imagenes/casas/casa-main.png);
+  background-position: center ;
+  background-size: cover;
+  padding: 70px;
+  font-family: header;
+}
+
+.section-index > h1 {
+  color: red;
+  font-family: lorem;
+  font-weight: bold;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Start: Video Responsive */
+.video-1 {
+  overflow:hidden;
+  padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
+  position:relative;
+  height:0;
+}
+.video-1 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+/* End: Video Responsive */
+
+.footer {
+  background-color: rgb(125, 125, 125);
+}
+
+.Iconos-FontAwesome {
+  font-size: x-large;
+  margin-bottom: 0%;
+}
+
+/*texto biografia*/
+
+.texto-biografia{
+  color: red;
+  background-color: black;
+  background-position: center ;
+  background-size: cover;
+  padding: 70px;
+  font-family: header;
+}
+
+.publicar-casa {
+background-color: #55e6d5;
+}
+
+.Formulario > h2 {
+  color: blue;
+  font-family: header;
+  font-weight: bold;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+/*error 404*/
+
+.notFound {
+  background-color: black;
+}
